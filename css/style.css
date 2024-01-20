@@ -1,0 +1,96 @@
+.hidden {
+    display: none;
+}
+
+#weather {
+    font-family: "Salsa";
+    position: relative;
+    left: 220px;
+}
+
+#egg {
+    position: absolute;
+    left: 43px;
+    top: 60px;
+}
+
+#date {
+    font-family: "Lemon";
+    position: relative;
+    left: 230px;
+    top: 55px;
+}
+
+#clock {
+    font-family: "Lemon";
+    position: relative;
+    text-align: center;
+    font-size: 73px;
+    margin: 0px;
+    top: 25px;
+}
+
+#greeting {
+    font-family: 'Lemon';
+    font-weight: bold;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    color: white;
+    font-size: 40px;
+    -webkit-text-stroke-color: black;
+}
+
+#login-form {
+    position: relative;
+    text-align: center;
+}
+
+#login-form >button {
+    width: 60px;
+    height: 50px;
+    background-color: black;
+    border-radius:10px;
+    color: white;
+}
+
+#todo-form {
+    position: relative;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 250px;
+    height: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid black;
+}
+
+#todo-list {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li>span {
+    font-family:"Gowun Dodum";
+    font-weight: bold;
+    margin: 10px;
+    font-size: 17px;
+}
+
+li>button {
+    background-color: black;
+    border-radius:10px;
+    color: white;
+    width: 35px;
+    height: 20px;
+}
+
+#quote {
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    font-family:'Salsa'
+}
